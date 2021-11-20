@@ -6,7 +6,7 @@ const resolvers = {
     Query: {
         me: async (parent, args, context) => {
             if(context.user) {
-                const userData = User.findOne({ _id: context.user._id }).select('-__v -password');
+                const userData = User.findOne({ _id: context.user._id }).select('-password');
                 return userData;
             }
             throw new authenticationError('Must be logged in!');
