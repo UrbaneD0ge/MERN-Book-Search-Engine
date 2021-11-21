@@ -23,6 +23,7 @@
     "apollo-server-express": "^3.5.0",
     "bcrypt": "^5.0.1",
     "gh-pages": "^3.2.3",
+    "heroku": "^7.59.2",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.0.13"
   }
