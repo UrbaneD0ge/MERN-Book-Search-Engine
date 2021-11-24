@@ -1,8 +1,7 @@
 {
   "name": "googlebooks-app",
   "version": "1.0.0",
-  "engines": {
-    "node": "16.x"},
+  "engines": {"node": "16.x"},
   "description": "",
   "homepage": "https://urbaned0ge.github.io/MERN-Book-Search-Engine",
   "main": "server/server.js",
